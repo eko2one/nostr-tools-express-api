@@ -12,8 +12,8 @@
 
 **Endpoints**
 
-`/keys`: Get random key pair
+`/keys`: Generate random key pair
 
-`/event`: Get random event with content 'Hello'
+`/event`: Generate random event with content 'Hello'
 
 `/events`: Get all events from relay
