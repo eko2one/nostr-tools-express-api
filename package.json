@@ -1,0 +1,21 @@
+{
+  "name": "nostr-tools-express-api",
+  "version": "1.0.0",
+  "description": "just trying out nostr-tools",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "eko2one",
+  "license": "AMK",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nostr-tools": "^1.7.1",
+    "websocket-polyfill": "^0.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2"
+  }
+}
